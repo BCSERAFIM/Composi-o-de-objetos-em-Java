@@ -6,9 +6,10 @@ Este programa Java é uma aplicação de console que permite ao usuário inserir
 O sistema utiliza as classes Client, Order, OrderItem, Product, e a enumeração OrderStatus.
 
 ### Diagrama de Classe:
+<img src="imgs/diagramaClasse.png" alt="Diagrama de Classe">
 
 ### Objetos em Memória 
-
+<img src="imgs/objetosMemoria.png" alt="Objetos em Memória">
 
 ## Lógica:
 1. Importa classes e pacotes necessários, incluindo Scanner para entrada do teclado e SimpleDateFormat para manipulação de datas.
@@ -23,3 +24,4 @@ O sistema utiliza as classes Client, Order, OrderItem, Product, e a enumeração
 10. Ao final, exibe um resumo do pedido.
 
 ### Sumário do pedido
+<img src="imgs/sumarioDoPedido.png" alt="Sumário do pedido">
