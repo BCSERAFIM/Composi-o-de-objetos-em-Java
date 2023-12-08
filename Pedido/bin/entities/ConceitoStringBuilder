@@ -1,0 +1,19 @@
+Conceito do StringBuilder:
+O StringBuilder é uma classe no Java que representa uma sequência mutável de caracteres.
+Ele é utilizado quando há uma necessidade de construir strings de maneira eficiente, especialmente quando a concatenação de várias strings está envolvida.
+Diferentemente da classe String, o StringBuilder permite a modificação eficiente do conteúdo da sequência sem criar um novo objeto em cada alteração.
+
+Funcionamento do Código utilizado em Order:
+
+1 - Um objeto StringBuilder chamado sb é criado para construir a representação em string do pedido.
+2 - As informações sobre o momento do pedido, status, cliente, itens do pedido e preço total são adicionadas ao StringBuilder usando o método append().
+3 - O loop for percorre cada OrderItem e adiciona a representação em string de cada item ao StringBuilder.
+4 - O método String.format() é utilizado para formatar o preço total com duas casas decimais.
+5 - O StringBuilder é convertido para uma string usando o método toString().
+6 - A string resultante é retornada.
+
+Observação:
+
+O uso do StringBuilder é preferível quando há muitas operações de concatenação de strings,
+pois ele oferece melhor desempenho em comparação com a concatenação direta usando o operador +.
+Isso ocorre porque o StringBuilder manipula internamente o buffer de caracteres, evitando a criação excessiva de objetos intermediários.
